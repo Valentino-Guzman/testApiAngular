@@ -1,0 +1,12 @@
+
+img {
+width: 100px;
+}
+
+.tabla{
+    display: flex;
+    flex-direction: column;
+}
+table {
+    border: solid 1px black;
+}

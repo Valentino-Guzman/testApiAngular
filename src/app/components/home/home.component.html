@@ -1,0 +1,22 @@
+<div>
+    <h1>LISTA DE PERSONAS</h1>
+    <ul *ngFor="let producto of productos">
+            <table class="tabla">
+                <tr>
+                    <th><img src="{{producto.avatar}}" alt=""></th>
+                </tr>
+                <tr>
+                    <th>name:</th>
+                    <th>{{producto.name}}</th>
+                </tr>
+                <tr>
+                    <th>email:</th>
+                    <th>{{producto.email}}</th>
+                </tr>
+                <tr>
+                    <th>role:</th>
+                    <th>{{producto.role}}</th>
+                </tr>
+            </table>
+    </ul>
+</div>
